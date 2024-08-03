@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         </p>
 
         {/* Feed */}
+        <Feed />
       </section>
     </div>
   );
